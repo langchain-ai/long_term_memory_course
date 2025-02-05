@@ -1,9 +1,23 @@
-def format_few_shot_examples(examples):
-    """ Format episodic memories for few shot examples"""
-    formatted_examples = []
-    for example in examples:
-        formatted_examples.append(
-            f"Input:\n{example.value['input']}\n\n"
-            f"Output:\n{example.value['output']}\n"
-        )
-    return "\n---\n".join(formatted_examples)
+def parse_email(email_input: dict) -> dict:
+    """Parse an email input dictionary.
+
+    Args:
+        email_input (dict): Dictionary containing email fields:
+            - author: Sender's name and email
+            - to: Recipient's name and email
+            - subject: Email subject line
+            - email_thread: Full email content
+
+    Returns:
+        tuple[str, str, str, str]: Tuple containing:
+            - author: Sender's name and email
+            - to: Recipient's name and email
+            - subject: Email subject line
+            - email_thread: Full email content
+    """
+    return (
+        email_input["author"],
+        email_input["to"],
+        email_input["subject"],
+        email_input["email_thread"],
+    )

@@ -20,28 +20,38 @@ An AI email assistant:
 
 [Three key types of memory in cognitive systems:](https://en.wikipedia.org/wiki/Long-term_memory)
 
+### Slide 4: Semantic Memory
+
 1. **Semantic Memory**
    - Facts and knowledge
    - Understanding relationships
    - General concepts
+
+### Slide 5: Episodic Memory
 
 2. **Episodic Memory**
    - Specific past experiences
    - Context-based learning
    - Historical patterns
 
+### Slide 6: Procedural Memory
+
 3. **Procedural Memory**
    - Skills and procedures
    - How to perform tasks
    - Learned behaviors
 
-### Slide 4: Mapping this to AI systems
+### Slide 7: Mapping this to AI systems
 
 https://arxiv.org/abs/2309.02427
 
 Semantic memories can be [organized into collections or a fixed profile](https://langchain-ai.github.io/langgraph/concepts/memory/#semantic-memory). 
 
-### Slide 5: Mapping Memory Types to Email Assistant
+### Slide 9: Hot path
+
+### Slide 10: Background memory
+
+### Slide 11: Mapping Memory Types to Email Assistant
 
 ![System Diagram](img/memory_course_email.png)
 

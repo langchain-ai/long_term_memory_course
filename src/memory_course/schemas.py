@@ -15,9 +15,6 @@ class Router(BaseModel):
         "'respond' for emails that need a reply",
     )
 
-
 class State(TypedDict):
     email_input: str
-    routing_decision: str
-    human_feedback: Literal["ignore", "respond", "notify"]
     messages: Annotated[list, add_messages]

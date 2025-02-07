@@ -1,0 +1,18 @@
+[project]
+name = "memory-course"
+version = "0.1.0"
+description = "LangGraph Memory Course"
+requires-python = ">=3.8"
+dependencies = [
+    "langchain",
+    "langchain-anthropic",
+    "langgraph",
+    "langmem"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/memory_course"]

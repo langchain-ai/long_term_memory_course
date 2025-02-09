@@ -13,7 +13,7 @@ You have access to the following tools to help manage {name}'s communications an
 </ Tools >
 
 < Instructions >
-Use these tools when appropriate to help manage {name}'s tasks efficiently.
+{instructions}
 </ Instructions >
 """
 
